@@ -1,0 +1,25 @@
+package com.croco.student;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Student {
+    String nom;
+    double[][] notes;
+
+    public Student(String nom, double... notes) {
+        this.nom = nom;
+        this.notes = new double[][]{notes};
+    }
+
+    double moyenne() {
+        double[] sum = new double[0];
+        for (double[] note : notes) {
+            sum = note;
+            return sum / notes.length;
+        }
+
+    }
+
+
+}
