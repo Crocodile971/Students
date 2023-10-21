@@ -17,8 +17,10 @@ public class Main {
         students.add(student3);
 
 
-        System.out.println("Je me nomme " + student2.nom);
-        System.out.println("Ma moyenne est de " + student2.moyenne());
+        System.out.println("Je me nomme " + student1.nom + " ma moyenne est de :" + student1.moyenne());
+        System.out.println("Je me nomme " + student2.nom + " ma moyenne est de :" + student2.moyenne());
+        System.out.println("Je me nomme " + student3.nom + " ma moyenne est de :" + student3.moyenne());
+
 
         }
     }
